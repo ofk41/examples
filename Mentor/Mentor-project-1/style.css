@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    font-family: 'Overpass';
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    min-height: 325px;
+    margin: 200px auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 25px 25px;
+    /* border: 2px solid wheat; */
+}
+
+.container .row {
+    /* width: 100%; */
+    /* padding: 1rem; */
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+}
+
+.nbr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .row .img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: hsl(216, 12%, 54%); */
+    border-radius: 50%;
+}
+
+.container .row .omer-card-title {
+    display: flex;
+    height: 40px;
+    color: white;
+   
+    font-weight: 600;
+}
+
+.container .row .omer-card-info {
+   
+    font-weight: 300;
+    color: hsl(217, 12%, 63%);
+}
+
+.container .row .omer-card-nbr {
+    display: inline-flex;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    color: hsl(217, 12%, 63%);
+    
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.container .row .omer-card-btn {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    font-weight: 500;
+    letter-spacing: .2rem;
+}

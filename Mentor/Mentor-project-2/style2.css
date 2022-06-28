@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 625px;
+    width: 350px;
+    margin: 200px auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    font-family: 'Outfit';
+}
+
+.container .deneme {
+    padding: 1.5rem;
+}
+
+/* .container .row{
+    /* padding-right: 1.5rem;
+    padding-left: 1.5rem; */
+
+.container .deneme .row .img-wrapper {
+    position: relative;
+    height: auto;
+    width: 100%;  
+    /* border: 2px solid red;  */
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+.container .deneme .row .img-wrapper .img-w {
+    display: block;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    backface-visibility: hidden;
+}
+
+.container .deneme .row .img-wrapper .icon-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    
+}
+
+.container .deneme .row .img-wrapper:hover .img-w{
+    opacity: .3;
+   
+}
+
+.container .deneme .row .img-wrapper:hover .icon-hover {
+    opacity: 1;
+     background-color: rgba(166, 226, 83, 0.2);
+}
+
+
+.container .deneme .row .img-wrapper .icon-hover .icon-eye{
+    color: white;
+    font-size: 20px;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+
+.container .deneme .row .omer-card-title {
+    color: white;
+    /* text-align: center; */
+    margin: 1.7rem 0;
+}
+
+.container .deneme .row .omer-card-title h2{
+    font-weight: 600;
+}
+
+.container .deneme .row .omer-card-info {
+    color: hsl(215, 51%, 70%);
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 300;
+    margin: 1.7rem 0;
+
+}
+
+.container .deneme .row.inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin: 1.7rem 0;
+}
+
+.container .deneme .row.inf .eth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .deneme .row.inf .eth.nbr {
+    color: hsl(178, 100%, 50%);
+    margin-left: .5rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container .deneme .row.inf .clock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .deneme .row.inf .clock.time {
+    color: hsl(215, 51%, 70%);
+    margin-left: .4rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container .deneme .row .line {
+    border-bottom: 1px solid rgb(88, 97, 115);
+    width: 100%;
+    margin: 1.7rem 0;
+}
+
+.container .deneme .row.prsn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.7rem;
+}
+
+.prsn-img {
+    height: 25px;
+    width: 25px;
+    margin-right: .5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.container .deneme .row.prsn .hmn.by {
+    color: hsl(215, 51%, 70%);
+    margin-right: .5rem;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.container .deneme .row.prsn .hmn.name {
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+}

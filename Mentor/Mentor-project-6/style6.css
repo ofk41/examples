@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(210, 46%, 95%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Manrope';
+}
+
+.wrapper {
+    /* border: 2px solid green; */
+    position: relative;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 14px 12px 43px 10px rgba(227, 223, 227, 1);
+    -moz-box-shadow: 14px 12px 43px 10px rgba(227, 223, 227, 1);
+    box-shadow: 14px 12px 43px 10px rgba(227, 223, 227, 1);
+}
+
+.popap-wrapper {
+    position: absolute;
+    visibility: hidden;
+    right: 186px;
+    bottom: 180px;
+}
+
+.popap {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(91, 89, 89);
+    padding: 15px;
+    /* border: 2px dashed red; */
+}
+
+.hero {
+    position: absolute;
+    right: -120px;
+    bottom: -70px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    margin: auto;
+    border-width: 15px 12px 0 12px;
+    border-color: rgb(91, 89, 89) transparent transparent transparent;
+    line-height: 0px;
+}
+
+.active {
+    visibility: visible;
+}
+
+.nav-item {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    color: grey;
+
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.img-wrapper {
+    width: 300px;
+    overflow: hidden;
+    /* border: 2px solid lime; */
+}
+
+.card.inf {
+    margin: 30px 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    /* border: 2px solid green; */
+}
+
+.prsn {
+    display: flex;
+}
+
+.responsive {
+    margin-right: 30px;
+}
+
+.info.ttl {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(217, 19%, 35%);
+}
+
+.info.prg {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(212, 23%, 69%);
+}
+
+.hmn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.hmn.nm {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(217, 19%, 35%);
+    margin-left: 30px;
+}
+
+.date {
+    font-family: 'Manrope';
+    font-weight: 500;
+    color: hsl(212, 23%, 69%);
+}
+
+
+
+.img1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.img {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: grid;
+}

@@ -1,0 +1,88 @@
+.body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: beige;
+    margin: 200px auto;
+    border-radius: 10px;
+}
+
+.container .card {
+    border-radius: 10px;
+}
+
+.container .card .deneme{
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 2px solid lightblue; */
+    border-radius: 10px;
+}
+
+.container .card .deneme .column{
+    /* border: 2px solid red; */
+    width: 33.33%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.container .card .deneme .column.org{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.container .card .deneme .column.blu{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.container .card .deneme .column.grn{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.container .card .deneme .column .row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 30px;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.container .card .deneme .column .row.icn {
+   
+}
+
+.container .card .deneme .column .row.title{
+    font-family: 'Big Shoulders Display';
+    font-size: 700;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+}
+
+.container .card .deneme .column .row .card-btn{
+    border: 1px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 50%;
+    width: 75%;
+    height: 35px;
+    border-radius: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color:transparent;
+    /* cursor: pointer; */
+}
+
+.container .card .deneme .column .row .card-btn:hover{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color: black;
+}
